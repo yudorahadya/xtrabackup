@@ -9,7 +9,7 @@ set -u #stop execution if something goes wrong
 #######################################
 BACKUP_DIR=/var/log/xtrabackup/$(date +\%Y-\%m-\%d)
 DATA_DIR=/var/lib/mysql
-USER_ARGS=" --user=root --password=2017d134D3t1kc0m~~"
+USER_ARGS=" --user=root --password=yourpassword"
 
 ARGS="--rsync $USER_ARGS --no-timestamp --compress --compress-threads=4"
 
